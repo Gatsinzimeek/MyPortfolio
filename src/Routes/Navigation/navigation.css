@@ -1,0 +1,30 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.Navigation-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    flex-wrap: wrap;
+    padding: 20px 14px;
+    background-color: #fef9f5;
+}
+
+
+
+.logo{
+    width: 30px;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media(max-width: 669px){
+    .Navigation-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+}

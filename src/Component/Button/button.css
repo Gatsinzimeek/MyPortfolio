@@ -1,0 +1,22 @@
+.all-button {
+    border: none;
+    padding: 8px 22px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.normal{
+    background-color: #FE705A;
+}
+.black{
+    background-color: rgb(46, 39, 46);
+}
+
+
+.black:hover,.normal:hover{
+    background-color: white;
+    color: rgb(46, 39, 46);
+}

@@ -1,0 +1,12 @@
+.about-container{
+    background: url('../../Assets/purpleblur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 30px;
+}

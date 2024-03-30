@@ -1,0 +1,49 @@
+.contact-Info{
+    margin: 50px 80px;
+    line-height: 1.6em;
+}
+.contact-Info h1{
+    text-align: center;
+}
+.contact-presentation,.form-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.contact-descrption{
+    margin-top: 90px;
+}
+
+.contact-descrption h1{
+    font-size: 30px;
+}
+
+.contact-presentation img{
+    width: 90%;
+}
+
+.form input, .form textarea{
+    border: 1px solid #ccc;
+    font-size: 17px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 10px;
+}
+.info{
+    padding-top: 50px;
+    line-height: 4em;
+}
+
+.Icon{
+    color:#FE705A;
+    font-size: 25px;
+}
+
+.form textarea{
+    border-radius: 20px;
+    height: 140px;
+}

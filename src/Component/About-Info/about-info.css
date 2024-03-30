@@ -1,0 +1,24 @@
+.Info-container{
+    width: 600px;
+    padding-left: 20px;
+    padding-top: 30px;
+    line-height: 1.7em;
+}
+.Info-button{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #FE705A;
+    padding-right: 4px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    padding-bottom: 10px;
+}

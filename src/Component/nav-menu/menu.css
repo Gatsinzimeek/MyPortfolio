@@ -1,0 +1,79 @@
+.menu{
+    display: flex;
+}
+.menu-links {
+    list-style: none;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.menu-links li{
+    display: inline;
+    padding: 5px;
+    margin: 0px 20px;
+}
+.menu-links li a{
+    text-decoration: none;
+    color: rgb(46, 39, 46);
+}
+
+.menu-links li a:hover{
+   color: #FE705A;
+}
+.color-mode{
+    font-size: 24px;
+    padding: 10px;
+    color: rgb(46, 39, 46);
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.color-mode:hover{
+    background-color: #FE705A;
+    color: white;
+}
+
+.menu-bar,.X-bar{
+    display: none;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-size: 30px;
+    color: rgb(46, 39, 46);
+}
+.X-bar{
+    z-index: 1;
+    position: fixed;
+}
+@media(max-width: 769px){
+    .menu-bar{
+        display: block;
+    }
+    .menu-links{
+        display: none;
+    }
+    .PopUp{
+        display: inline-block;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-top: 0;
+        padding: 35% 35%;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        text-align: center;
+
+        
+    }
+    .PopUp li{
+        display: block;
+        padding: 20px 0px;
+    }
+    .show{
+        display: block;
+    }
+}
