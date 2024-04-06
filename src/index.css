@@ -13,9 +13,14 @@ code {
 *{
   margin: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #0f172a;
   color: white;
+}
+
+.footer{
+  background-color: #e5e7eb;
 }

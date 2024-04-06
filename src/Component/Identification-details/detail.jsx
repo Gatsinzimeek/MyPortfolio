@@ -11,7 +11,7 @@ const HeaderDescption = () =>{
     }
 
     return(
-        <motion.div className="Descption-details"  animate={{y:100}}>
+        <motion.div className='Descption-details'  animate={{y:100}}>
             <h5>Full Stack DEVELOPER</h5>
             <motion.h1>Hey, Welcome <br />I am Gatsinzi Ernest</motion.h1>
             <p>Hi there! I am Gatsinzi Ernest, <br />I work as a full-time Software engineer. <br /> In my spare time, I do side projects, learning new things and sports. <br />I use Javascript Both on Frontend part as well as Backend.</p>

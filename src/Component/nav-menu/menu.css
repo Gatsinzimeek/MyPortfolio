@@ -17,6 +17,11 @@
     color: rgb(46, 39, 46);
 }
 
+.menu-links-dark li a{
+    text-decoration: none;
+    color: white;
+}
+
 .menu-links li a:hover{
    color: #FE705A;
 }
@@ -44,7 +49,7 @@
     color: rgb(46, 39, 46);
 }
 .X-bar{
-    z-index: 1;
+    z-index: 100;
     position: fixed;
 }
 @media(max-width: 769px){
@@ -53,6 +58,7 @@
     }
     .menu-links{
         display: none;
+        z-index: 10;
     }
     .PopUp{
         display: inline-block;
@@ -68,6 +74,9 @@
         text-align: center;
 
         
+    }
+    .menu-links-dark{
+        background-color: #0f172a;
     }
     .PopUp li{
         display: block;

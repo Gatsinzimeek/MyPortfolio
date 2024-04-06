@@ -5,9 +5,11 @@
     gap: 140px;
     flex-wrap: wrap;
     padding: 20px 14px;
-    background-color: #fef9f5;
 }
 
+.Navigation-bg {
+    background-color: #fef9f5;
+}
 
 
 .logo{

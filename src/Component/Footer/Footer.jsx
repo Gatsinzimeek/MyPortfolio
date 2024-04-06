@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React, { useContext } from 'react'
+import { ColorModeContext } from '../../Context/Mode/ColorMode';
 const Footer = () => {
+  const {Color} = useContext(ColorModeContext);
   return (
-    <div>
-      <p style={{textAlign: 'center', backgroundColor: '#e5e7eb', padding: '30px'}}>  Designed by Gatsinzi Ernest</p>
+    <div className={`${Color === 'normal' ? 'footer' : 'dark-mode'}`}>
+      <p style={{textAlign: 'center', padding: '30px'}}> &copy; Designed by Gatsinzi Ernest</p>
     </div>
   )
 }

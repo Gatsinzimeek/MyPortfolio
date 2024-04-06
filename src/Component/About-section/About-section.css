@@ -1,12 +1,16 @@
 .About-Section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;    
     margin-top: 60px;
+    padding: 40px;
+    width: 100%;
 }
-
+.profile{
+    flex: 1;
+}
 .profile img{
     margin: 20px 90px;
-    width: 239px;
+    width: 70%;
     border-radius: 40px;
 }

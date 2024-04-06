@@ -1,11 +1,14 @@
 import Light from '../../Assets/contact-light.svg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Input from './input/input';
+import { ColorModeContext } from '../../Context/Mode/ColorMode';
 import Button from '../Button/Button'
 import './contact.css'
+import { useContext } from 'react';
 const ContactDetail = () =>{
+    const {Color} = useContext(ColorModeContext);
     return(
-       <section className="contact-Info">
+       <section className={`contact-Info ${Color === 'normal' ? '' : 'dark-mode'}`}>
             <h1>CONTACT ME</h1>
             <div className="contact-presentation">
                 <div className="contact-descrption">

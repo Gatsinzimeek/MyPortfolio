@@ -1,6 +1,7 @@
 .contact-Info{
-    margin: 50px 80px;
+    padding: 50px 80px;
     line-height: 1.6em;
+    width: 100%;
 }
 .contact-Info h1{
     text-align: center;
