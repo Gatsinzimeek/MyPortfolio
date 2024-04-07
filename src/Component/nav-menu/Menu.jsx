@@ -9,9 +9,9 @@ const Navmenu = () =>{
     const [menubar, setMenu] = useState('');
     const [showxbar, setBara] = useState('');
 
-    const {setColor,Color} = useContext(ColorModeContext);
+    const {setColor} = useContext(ColorModeContext);
 
-    const handlechange = (data) =>{
+    const handlechange = () =>{
         setMenu('PopUp');
         setBara('show');
     }
