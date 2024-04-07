@@ -30,3 +30,23 @@
     color: white;
 }
 
+.Arrow-up{
+    font-size: 24px;
+    padding: 10px;
+    color: rgb(46, 39, 46);
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 40px;
+    bottom: 70px;
+}
+
+
+.Arrow-up:hover{
+    background-color: #FE705A;
+    color: white;
+}
+.hidden{
+    display: none;
+}

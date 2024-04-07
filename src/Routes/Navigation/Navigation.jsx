@@ -7,8 +7,7 @@ import Footer from '../../Component/Footer/Footer';
 import { ColorModeContext } from '../../Context/Mode/ColorMode';
 import './navigation.css';
 const Navigation = () =>{
-    const [IsSticky, setSticky] = useState(false);
-    const {Color} = useContext(ColorModeContext);
+    const {Color,setSticky,IsSticky} = useContext(ColorModeContext);
 
     const handleScroll = () =>{
         setSticky(window.scrollY > 0);    
